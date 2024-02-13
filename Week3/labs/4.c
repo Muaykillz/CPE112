@@ -1,3 +1,5 @@
+// 66070501013 Thinnaphat Kanchina
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -103,11 +105,11 @@ void searchNeighbors(int data)
 void printListForward()
 {
     struct Node *current = head;
-    if (current == NULL)
-    {
-        printf("none\n");
-        return;
-    }
+    // if (current == NULL)
+    // {
+    //     printf("none\n");
+    //     return;
+    // }
 
     while (current != NULL)
     {
@@ -120,11 +122,11 @@ void printListForward()
 void printListBackward()
 {
     struct Node *current = head;
-    if (current == NULL)
-    {
-        printf("none\n");
-        return;
-    }
+    // if (current == NULL)
+    // {
+    //     printf("none\n");
+    //     return;
+    // }
     if (current == NULL)
     {
         return;

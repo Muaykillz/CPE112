@@ -1,3 +1,5 @@
+// 66070501013 Thinnaphat Kanchina
+
 #include <stdio.h>
 
 int findLastRemaining(int arr[], int size, int step) {

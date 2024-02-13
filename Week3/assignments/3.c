@@ -1,3 +1,5 @@
+// 66070501013 Thinnaphat Kanchina
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
