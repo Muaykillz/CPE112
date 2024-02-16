@@ -1,0 +1,3 @@
+# ผมพูดตรงๆนะครับ ผมก้ายครับ
+
+![ชัยลาวา](https://scontent.fbkk22-3.fna.fbcdn.net/v/t39.30808-6/251827850_135935028788302_4976699728095755769_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeGW6R3IAnIPCUI9xcgGbUfAeWedNRWvL6h5Z501Fa8vqJCsoC4iiDmVRi8jNAJXPNpW3pOlIY0QT10n6HHG6B5c&_nc_ohc=r3IIjoRsOeIAX_Ikm3-&_nc_ht=scontent.fbkk22-3.fna&oh=00_AfCuT8pb5K7SH7FtQqvMSO8yG2m6h7-GSVSX9I6b_Hff8A&oe=65D387A9)
