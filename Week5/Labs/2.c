@@ -6,13 +6,11 @@ int size;
 
 int circularQueue[10];
 int front = -1, rear = -1;
-
 void insertq(int value) {
     if ((front == 0 && rear == size - 1) || (front == rear + 1) || (front == -1 && rear == size - 1)) {
         printf("Queue is full!!\n");
         return;
     }
-
     if (front == -1) {
         front = 0;
         rear = 0;
@@ -22,20 +20,15 @@ void insertq(int value) {
         else
             rear = rear + 1;
     }
-
     circularQueue[rear] = value;
 }
-
 int dequeue() {
     int deletedValue;
-
     if (front == -1) {
         printf("Queue is empty!!\n");
         return -1;
     }
-
     deletedValue = circularQueue[front];
-
     if (front == rear) {
         front = -1;
         rear = -1;
@@ -45,7 +38,6 @@ int dequeue() {
         else
             front = front + 1;
     }
-
     return deletedValue;
 }
 

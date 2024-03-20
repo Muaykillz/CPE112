@@ -62,26 +62,6 @@ void dequeue()
     }
 }
 
-// void displayPlaylist()
-// {
-//     if (front == NULL)
-//     {
-//         printf("No songs in the playlist\n");
-//     }
-//     else
-//     {
-//         Node *temp = front;
-//         printf("Songs in the playlist:\n");
-//         while (temp != NULL)
-//         {
-//             printf("%s by %s %d\n", temp->data.name, temp->data.artist, temp->data.time);
-//             temp = temp->next;
-//         }
-
-//         printf("Remaining Time: %d\n", front->data.time);
-//     }
-// }
-
 void displayPlaylist()
 {
     if (front == NULL)
@@ -100,7 +80,6 @@ void displayPlaylist()
             sum += temp->data.time;
             temp = temp->next;
         }
-
         printf("Remaining Time: %d\n", sum);
     }
 }

@@ -75,14 +75,11 @@ void infixToPostfix(char *infix, char *postfix) {
             }
             push(&s, token);
         }
-
         i++;
     }
-
     while (!isEmpty(&s)) {
         postfix[j++] = pop(&s);
     }
-
     postfix[j] = '\0';
 }
 

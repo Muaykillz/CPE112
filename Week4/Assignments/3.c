@@ -56,7 +56,6 @@ bool isBalanced(char *str) {
             }
         }
     }
-
     return isEmpty(&s);
 }
 

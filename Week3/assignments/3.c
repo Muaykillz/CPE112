@@ -13,25 +13,20 @@ ListNode* reverseBetween(ListNode* head, int m, int n) {
     if (head == NULL || m == n) {
         return head;
     }
-
     ListNode *dummy = malloc(sizeof(ListNode));
     dummy->next = head;
-
     ListNode *prev = dummy;
     for (int i = 1; i < m; i++) {
         prev = prev->next;
     }
-
     ListNode *current = prev->next;
     ListNode *next = NULL;
-
     for (int i = m; i < n; i++) {
         next = current->next;
         current->next = next->next;
         next->next = prev->next;
         prev->next = next;
     }
-
     return dummy->next;
 }
 

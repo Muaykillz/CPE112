@@ -19,7 +19,6 @@ int main() {
            }
        }
    }
-
    int isSymmetric = 1, isSkewSymmetric = 1;
    for (int i = 0; i < m; i++) {
        for (int j = 0; j < i; j++) {
@@ -34,8 +33,6 @@ int main() {
            }
        }
    }
-
-   // show the result
    if (isSymmetric) {
        printf("The matrix is symmetric\n");
    } else if (isSkewSymmetric) {
@@ -43,6 +40,5 @@ int main() {
    } else {
        printf("None\n");
    }
-
    return 0;
 }

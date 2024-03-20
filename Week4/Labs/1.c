@@ -20,7 +20,6 @@ int isEmpty()
 }
 void push(int data)
 {
-    // printf("top: %d\n", top);
     if (isFull())
     {
         printf("Stack Overflow.\n");
@@ -28,7 +27,6 @@ void push(int data)
     }
     stack[++top] = data;
 }
-
 int pop()
 {
     if (isEmpty())

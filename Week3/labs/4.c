@@ -105,11 +105,6 @@ void searchNeighbors(int data)
 void printListForward()
 {
     struct Node *current = head;
-    // if (current == NULL)
-    // {
-    //     printf("none\n");
-    //     return;
-    // }
 
     while (current != NULL)
     {
@@ -122,11 +117,6 @@ void printListForward()
 void printListBackward()
 {
     struct Node *current = head;
-    // if (current == NULL)
-    // {
-    //     printf("none\n");
-    //     return;
-    // }
     if (current == NULL)
     {
         return;

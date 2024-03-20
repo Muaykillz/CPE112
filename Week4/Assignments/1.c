@@ -41,16 +41,13 @@ void convertAndPrint(int n, int x) {
         printf("invalid\n");
         return;
     }
-
     Stack s;
     initStack(&s);
-
     while (n > 0) {
         int remainder = n % x;
         push(&s, remainder);
         n /= x;
     }
-
     while (!isEmpty(&s)) {
         int digit = pop(&s);
         if (digit < 10) {
@@ -59,7 +56,6 @@ void convertAndPrint(int n, int x) {
             printf("%c", 'A' + digit - 10);
         }
     }
-
     printf("\n");
 }
 

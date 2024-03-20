@@ -12,7 +12,6 @@ int main()
     {
         scanf("%d", arr + i);
     }
-
     int mode;
     scanf("%d", &mode);
     if (mode == 0)
@@ -36,8 +35,6 @@ int main()
             printf("none");
         }
     }
-
     free(arr);
-
     return 0;
 }

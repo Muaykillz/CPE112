@@ -1,5 +1,4 @@
 // Thinnaphat Kanchina 66070501013
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -26,7 +25,6 @@ int *arr2set(int *arr, int *size)
     {
         set[i] = arr[i];
     }
-
     return set;
 }
 

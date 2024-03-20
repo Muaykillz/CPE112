@@ -12,7 +12,6 @@ int findLastRemaining(int arr[], int size, int step) {
 
         size--;
     }
-
     return arr[0];
 }
 
